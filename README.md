@@ -85,6 +85,9 @@ python extract_colors.py https://example.com -o colors.json
 - **Universal** - Works on any Python-supported platform
 
 ## Screenshots
+<img width="717" height="426" alt="image" src="https://github.com/user-attachments/assets/a3fe8f77-0a60-42d4-bf7c-d3805b0ffaa9" />
+
+
 
 The tool features:
 - **Animated colorful title**
