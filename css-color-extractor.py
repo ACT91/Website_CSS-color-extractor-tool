@@ -8,6 +8,7 @@ from utils.batch_extract import batch_extract
 from utils.palette_generator import color_palette_generator
 from utils.color_stats import color_statistics
 from utils.swatch_exporter import export_html_swatches
+from utils.color_preview import preview_colors
 from utils.settings import settings_menu
 
 # Initialize colorama
@@ -30,7 +31,7 @@ class ColorExtractorGUI:
             animated_title()
             show_menu()
             
-            choice = input(f"{Fore.YELLOW}Select option (0-6): {Fore.WHITE}")
+            choice = input(f"{Fore.YELLOW}Select option (0-7): {Fore.WHITE}")
             
             if choice == '0':
                 print(f"\n{Fore.GREEN}Thanks for using CSS Color Extractor!")
@@ -47,6 +48,8 @@ class ColorExtractorGUI:
             elif choice == '5':
                 export_html_swatches(self.extractor, self.output_dir)
             elif choice == '6':
+                preview_colors(self.output_dir)
+            elif choice == '7':
                 settings_menu(self.extractor)
             else:
                 print(f"{Fore.RED}X Invalid option!")

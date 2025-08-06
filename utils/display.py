@@ -54,6 +54,7 @@ def show_menu():
     print(f"{Fore.WHITE}3. {Fore.BLUE}Color Palette Generator")
     print(f"{Fore.WHITE}4. {Fore.MAGENTA}Color Statistics & Analysis")
     print(f"{Fore.WHITE}5. {Fore.CYAN}Export Color Swatches (HTML)")
-    print(f"{Fore.WHITE}6. {Fore.RED}Settings")
+    print(f"{Fore.WHITE}6. {Fore.BLUE}Preview Colors (From Extracted Color [.txt / .json])")
+    print(f"{Fore.WHITE}7. {Fore.RED}Settings")
     print(f"{Fore.WHITE}0. {Fore.RED}Exit")
     print("-" * 40)
