@@ -47,6 +47,13 @@ pip install -r requirements.txt
 ./termux_setup.sh
 ```
 
+
+https://github.com/user-attachments/assets/27db66c2-1a3e-434a-9d01-f850807ee325
+
+
+
+
+
 ## Quick Start
 
 ### Launch Interactive Mode
@@ -62,6 +69,10 @@ python css-color-extractor.py
 ./run.sh
 # Or: python3 css-color-extractor.py
 ```
+![1000755456](https://github.com/user-attachments/assets/60267bc0-a0b0-4cce-ac47-60f972eff2b4)
+
+
+
 
 ### Command Line Mode (Original)
 ```bash
